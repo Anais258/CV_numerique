@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Paris2024";
+    src: url('/assets/fonts/Paris2024/Paris2024Regular.ttf') format("woff2"),url('/assets/fonts/Paris2024/Paris2024Regular.woff') format("woff"),url('webfont.ttf')  format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    font-family: "Paris2024";
+    line-height: 1.5;
+    background-color: #000;
+    color: #D7C378;
+    font-weight: normal;
+} */
