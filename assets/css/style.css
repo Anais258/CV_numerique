@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -13,7 +14,7 @@ body {
     font-size: 28px;
     line-height: 1.5em;
     background-color: #000;
-    color: #9C8844;
+    color: #D7C378;
     font-weight: normal;
     display: flex;
     flex-direction: column;
@@ -25,17 +26,15 @@ body {
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     containers
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-.container-fluid {
+.container {
     display: flex;
-    justify-content: center;
+    margin: 40px auto;
 }
 .containerEntete {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    height: 38vh;
+    margin: 0;
 }
+/* .containerContact {
+} */
 .profil .text {
     display: flex;
     flex-direction: column;
@@ -46,84 +45,67 @@ body {
 .contactMe {
     font-size: larger;
     text-align: center;
+    padding-left: 28px;
 }
 
 
 
 /* catégorie & nombre */
-.containerNumberCategory {
-    position: relative;
-}
 .number {
-    position: absolute;
     font-size: 810px;
     font-weight: bold;
+    align-items: start;
     line-height: 70%;
 }
 .category {
-    position: relative;
     font-weight: bold;
     font-size: 50px;
     text-transform : uppercase;
     writing-mode: vertical-rl;
     text-orientation: upright;
     line-height: 50%;
-    top: 50px;
-
-
+    position: absolute;
 }
 .category span {
     color: #9D1437;
-    
 }
-
 
 
 /* entete */
+#anaisguyon {
+    margin-top: 20px;
+    text-align: center;
+}
 #avatar {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
-#anaisguyon {
-    width: 40vw;
-    text-align: center;
-}
-#avatar img {
-    width: 75%;
-    height: 75%;
+#avatar img{
+    padding-top: 70px;
+    vertical-align: middle;
+    max-width: 70%;
 }
 .profil {
-    border-top: 10px dotted #9C8844;
+    border-top: 10px dotted #D7C378;
     margin-top: -6px;
     padding-top: 10px;
 }
-.contactMe {
-    font-size: 4.3rem;
-    font-weight: bold;
-    line-height: 3.6rem;
-
-}
-
-/* ------------------------------------------------------------------------------------------------------- 
------------------------------------------------------------------------------------------------ */
 
 .competencesLogo {
     display:flex;
     justify-content: space-evenly;
 
 }
-
-.comp1,.comp2,.comp3 {
+/* .comp1,.comp2,.comp3 {
+    width: 25%;
+} */
+.listCompetences {
     display: flex;
     margin: 0px auto;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
-.conceptionGraphique,.frontEnd,.gestionProjet {
-    display: flex;
-    width: 35px;
-}
+
 
 
 
