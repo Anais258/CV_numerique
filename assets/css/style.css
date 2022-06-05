@@ -26,15 +26,14 @@ body {
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     containers
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-.container {
+.container-fluid {
     display: flex;
     margin: 40px auto;
 }
 .containerEntete {
     margin: 0;
+
 }
-/* .containerContact {
-} */
 .profil .text {
     display: flex;
     flex-direction: column;
@@ -42,7 +41,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-.contactMe {
+.job {
     font-size: larger;
     text-align: center;
     padding-left: 28px;
@@ -51,16 +50,20 @@ body {
 
 
 /* catégorie & nombre */
+.containerNumberCategory {
+    position: relative;
+}
+
 .number {
     font-size: 810px;
     font-weight: bold;
-    align-items: start;
-    line-height: 70%;
+position : absolute;
+line-height: 70%;
 }
 .category {
     font-weight: bold;
-    font-size: 50px;
-    text-transform : uppercase;
+    font-size: 3rem;
+    text-transform: uppercase;
     writing-mode: vertical-rl;
     text-orientation: upright;
     line-height: 50%;
@@ -81,9 +84,8 @@ body {
     justify-content: center;
 }
 #avatar img{
-    padding-top: 70px;
-    vertical-align: middle;
-    max-width: 70%;
+    padding-top: 220px;
+    width: -webkit-fill-available;
 }
 .profil {
     border-top: 10px dotted #D7C378;
@@ -96,9 +98,15 @@ body {
     justify-content: space-evenly;
 
 }
-/* .comp1,.comp2,.comp3 {
-    width: 25%;
-} */
+.comp1 img,.comp2 img,.comp3 img {
+    width: 20%;
+}
+.job{
+    font-size: 3.8rem;
+    font-weight: bold;
+    line-height: 3rem;
+}
+
 .listCompetences {
     display: flex;
     margin: 0px auto;
