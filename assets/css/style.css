@@ -6,7 +6,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body {
@@ -18,35 +18,53 @@ body {
     font-weight: normal;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 
-/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    containers
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-.container-fluid {
-    display: flex;
-    margin: 40px auto;
+/* entete */
+
+#anaisguyon {
+    text-align: center;
+    width: 500px;
 }
-.containerEntete {
-    margin: 0;
+#avatar {
+    display: flex;
+    justify-content: flex-end;
+}
+#avatar img{
+    padding-top: 60%;
+    width: 200px;
 
 }
+.profil {
+    border-top: 10px dotted #D7C378;
+    margin-top: -6px;
+    padding-top: 10px;
+}
+
+/* ----------------------------------------------------------------------------
+    containers
+-------------------------------------------------------------------------------- */
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* SECTION PROFIL */ 
+
 .profil .text {
     display: flex;
     flex-direction: column;
-    padding: 50px 0px;
     align-items: center;
-    justify-content: center;
 }
 .job {
     font-size: larger;
     text-align: center;
     padding-left: 28px;
 }
-
 
 
 /* catégorie & nombre */
@@ -74,28 +92,8 @@ line-height: 70%;
 }
 
 
-/* entete */
-#anaisguyon {
-    margin-top: 20px;
-    text-align: center;
-}
-#avatar {
-    display: flex;
-    justify-content: center;
-}
-#avatar img{
-    padding-top: 220px;
-    width: -webkit-fill-available;
-}
-.profil {
-    border-top: 10px dotted #D7C378;
-    margin-top: -6px;
-    padding-top: 10px;
-}
-
 .competencesLogo {
     display:flex;
-    justify-content: space-evenly;
 
 }
 .comp1 img,.comp2 img,.comp3 img {
@@ -109,8 +107,6 @@ line-height: 70%;
 
 .listCompetences {
     display: flex;
-    margin: 0px auto;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -119,11 +115,11 @@ line-height: 70%;
 
 
 
-.containerFormations,.containerContact,.containerLoisirs,.containerInspirations {
+.formations,.contact,.loisirs,.inspirations {
     transition: all 0.5s ease-in-out;
 }
 
-.containerFormations.scroll,.containerContact.scroll,.containerLoisirs.scroll,.containerInspirations.scroll {
+.formations.scroll,.contact.scroll,.loisirs.scroll,.inspirations.scroll {
     background-color: #D7C378;
     color: #000;
 }
