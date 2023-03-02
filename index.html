@@ -9,72 +9,100 @@
     <title>CV_Numérique Anaïs Guyon</title>
 </head>
 <body>
-    <div id="haut"></div>
-    <div class="container-fluid">
-        <section class="row menu">
-            <div class="offset-md-6 offset-lg-9 col-md-6 col-lg-3" id="menu">
-                <nav>
-                    <a href="#logo"><img src="assets/img/logo-compétences/"></img></a>
-                    <a href="#PROFIL">PROFIL</a>
-                    <a href="#FORMATIONS">FORMATIONS</a>
-                    <a href="#EXPÉRIENCES">EXPÉRIENCES</a>
-                    <a href="#COMPÉTENCES">COMPÉTENCES</a>
-                    <a href="#ATOUTS">ATOUTS</a>
-                    <a href="#LOISIRS">LOISIRS</a>
-                    <a href="#CONTACT">CONTACT</a>
-                    <a href="#haut"><img src="assets/img/Icones/Flèche Rouge.svg"></img></a>
-                </nav>
-            </div>               
-        </section>
+
+    <!-- <div class="loader pencil">
+        <div class="pencil__ball-point"></div>
+        <div class="pencil__cap"></div>
+        <div class="pencil__cap-base"></div>
+        <div class="pencil__middle"></div>
+        <div class="pencil__eraser"></div>
     </div>
-    <div class="container-fluid">
-        <section class="bienvenue">
-            <div class="titre1">Bienvenue sur mon</div>
-            <h1 class="titre2">CV numérique</h1>
-            <div id="avatar"><img src="assets/img/AnaisGuyon/Avatar rond jaune.png">
-                </img>
+    <div class="line"></div>
+    <p>Chargement de la page ... Merci de patienter</p>
+    -->
+    
+    <div class="container menu">
+        <div class="logoEtIcone">
+            <a id="logo" href="#haut"><img src="assets/img/logo/logo tout or.svg"></img></a>
+            <div class="iconeMenu">
+                <span></span>
             </div>
-            <h2 class="name">
+        </div>
+        <nav class="navMenu">
+            <a href="#PROFIL">PROFIL</a>
+            <a href="#FORMATIONS">FORMATIONS</a>
+            <a href="#EXPÉRIENCES">EXPÉRIENCES</a>
+            <a href="#COMPÉTENCES">COMPÉTENCES</a>
+            <a href="#ATOUTS">ATOUTS</a>
+            <a href="#LOISIRS">LOISIRS</a>
+            <a href="#CONTACT">CONTACT</a>
+        </nav>
+        <a id="flecheRouge" href="#haut"><img src="assets/img/Icones/Flèche Rouge.svg"></img></a>
+    </div>
+    <div class="container-fluid bienvenue" id="bienvenue">
+        <h1><div class="titre1">Bienvenue sur mon</div>
+        <div class="titre2">CV numérique</div></h1>
+        <div id="avatar">
+            <img src="assets/img/AnaisGuyon/Avatar-rond-jaune_2x.webp"></img>
+            <div class="name">
                 <div class="txtRight">Je m'appelle</div>
                 <div class="txtLeft">Anaïs Guyon</div>
-            </h2>
-            <p class="iam">Je suis</p>
-            <div id="designerWeb"><img src="assets/img/AnaisGuyon/Web Designer.svg"></img></div>
-            <div class="fleche"><img src="assets/img/Icones/Flèche Or.svg"></img></div>
-        </section>
-    </div>
-    
-    <div class="containerBandeau">
-        <h2><span class="txt">QUI SUIS-JE ?&nbsp;</span>
-        <span class="txt">QUI SUIS-JE ?&nbsp;</span>
-        <span class="txt">QUI SUIS-JE ?&nbsp;</span>
-        <span class="txt">QUI SUIS-JE ?&nbsp;</span></h2>
-    </div>
-    </div>
-
-
-
-    <!-----------------------------------------------------------------------------------------------------------------------------------------------------
-        SECTION PROFIL 
-        ------------------------------------------------------------------------------------------------------------------------------------------------------>
-        
-        <div class="container-fluid">
-            <section class= "row scroll-page" id="profil">
-            <div class= "col-md-6 col-lg-2 containerNumberCategory">
-                <p class= "number">1</p>
-                <p class= "category">pro<span>f</span>il</p>
             </div>
-            <div class= "col-12 col-md-6 col-lg-7 text">
+        </div>
+        <p class="iam">&</p>
+        <p class="iam">Je suis</p>
+        <div id="designerWeb"><img src="assets/img/AnaisGuyon/Web Designer.svg"></img></div>
+        <div class="fleche"><img src="assets/img/Icones/Flèche Or.svg"></img></div>
+    </div>
+    <div class="container-fluid choix">
+        <div class="row souhait">
+            <p>Vous souhaitez...</p>
+            <div class="col-12 col-md-4 card portfolio">
+                <p>Voir mon portfolio ?</p>
+                <button><a href="https://anaisguyon.art" target="_blank">PORTFOLIO</a></button>
+            </div>
+            <div class="col-12 col-md-4 card CV">
+                <p>Télécharger mon CV ?</p>
+                <button><a href="assets/img/CV Anaïs Guyon Vweb.pdf" target="_blank">CV version WEB</a></button>
+                <!-- <button><a href="assets/img/CV Anaïs Guyon Vprint.pdf" target="_blank">CV version PRINT</a></button> -->
+            </div>
+            <div class="col-12 col-md-4 card continuer">
+                <p>Continuer la visite ?</p>
+                <button><a href="#PROFIL">CONTINUER</a></button>
+            </div>
+        </div>
+    </div>
+
+    <div id="haut"></div>
+
+<!-----------------------------------------------------------------------------------------------------------------------------------------------------
+    SECTION PROFIL 
+    ------------------------------------------------------------------------------------------------------------------------------------------------------>
+    
+    <div class="container-fluid profil" >
+        <div class="containerBandeau" id="PROFIL">
+            <span class="txt">QUI SUIS-JE ?&nbsp;</span>
+            <span class="txt">QUI SUIS-JE ?&nbsp;</span>
+            <span class="txt">QUI SUIS-JE ?&nbsp;</span>
+            <span class="txt">QUI SUIS-JE ?&nbsp;</span>
+            <span class="txt">QUI SUIS-JE ?&nbsp;</span>
+        </div>
+        <section class= "row scroll-page">
+            <div class= "col-2 numberCategory"><img src="assets/img/Nombres&Catégories/1.png"></img></div>
+            <div class= "col-12 col-md-8 text">
+                <h2 class= "bandeauTitle">QUI SUIS-JE ?</h2>
                 <p>Installée à Besançon, je suis de nature curieuse, j’adore apprendre et aider.</p>
                 <p>Passionnée par l'informatique ainsi que par les nouvelles technologies, me voilà donc fraîchement reconvertie comme web designer.</p>
-                <h2>Mon objectif ?</h2>
+                <h3>Mon objectif</h3>
                 <p>Aider mes clients en leur proposant une identité visuelle qui correspond à leur besoin.</p>
-                <p>Je créé tous les éléments graphiques (charte graphique, illustrations, logo, bannières, animations...)</p>
-                <p>Je m'occuppe également de tous vos projets prints : flyers, carte de visite, brochures,...</p>
-                <p>Enfin je peux vous proposer des publications pour vos réseaux sociaux, et des vidéos promotionnelles pour différents supports. </p>
-                <h2>Vous avez un projet ?<br>Des questions ?</h2>
-                <div class="cta"><p>N'hésitez pas à me contacter !</p>
-                <button><a href="#CONTACT">CONTACT</a></button></div>
+                <p><img src="assets/img/Icones/Flèche Blanche.svg">Je créé tous les éléments graphiques : charte graphique, illustrations, logo, bannières, animations...</p>
+                <p><img src="assets/img/Icones/Flèche Blanche.svg">Je m'occupe également de tous vos projets prints : flyers, carte de visite, brochures,...</p>
+                <p><img src="assets/img/Icones/Flèche Blanche.svg">Enfin je peux vous proposer des publications pour vos réseaux sociaux, et des vidéos promotionnelles pour différents supports. </p>
+                <h3>Vous avez un projet, des questions ?</h3>
+                <div class="cta">
+                    <button><a href="#CONTACT">CONTACTEZ-MOI</a></button>
+                    <!-- <p>N'hésitez pas !</p> -->
+                </div>
             </div>
         </section>
     </div>
@@ -83,155 +111,195 @@
     SECTION FORMATIONS 
 ------------------------------------------------------------------------------------------------------------------------------------------------------>
 
-    <div class="container-fluid">
-        <section class="row formations scroll-page" id="FORMATIONS">
-            <div class= "col-12 col-lg-2 containerNumberCategory">
-                <p class= "number">2</p>
-                <p class="category">for<span>m</span>ations</p>
-            </div>
-            <div class="col-lg-8 formationsCards">
+    <div class="container-fluid formations" >
+        <div class="containerBandeau" id="FORMATIONS">
+            <span class="txt">MA FORMATION &nbsp;</span>
+            <span class="txt">MA FORMATION &nbsp;</span>
+            <span class="txt">MA FORMATION &nbsp;</span>
+            <span class="txt">MA FORMATION &nbsp;</span>
+            <span class="txt">MA FORMATION &nbsp;</span>
+        </div>
+        <section class="row scroll-page">
+            <div class= "col-2 numberCategory"><img src="assets/img/Nombres&Catégories/2.png"></img></div>
+            <div class= "col-12 col-md-8 formationsCards">
+            <h2 class= "bandeauTitle">MA FORMATION</h2>
+
             <!-- Belin -->
-                <div class="col-12 col-lg-4">
-                    <div class="box ">
-                        <div class="date">2004</div>
-                        <img src="assets/img/logo-experiences-formation/logo-belin-blanc.png" class="img-fluid" alt=""></img>
-                        <div class="text_container">
-                            <p>Baccalauréat Scientifique</p>
-                            <p>lycée E. Belin</p>
+            <div class="col-12 col-md-4">
+                <div class="box">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <div class="date">2004</div>
+                            <img class="belin" src="assets/img/logo-experiences-formation/logo-belin-blanc.png" class="img-fluid" alt="logo-belin-blanc"></img>
+                        </div>
+                        <div class="box-back">
+                            <span class="title">
+                                <div class="title">Baccalauréat Scientifique</div>
+                            </span>
+                            <div class="text_container">
+                                <p>lycée E. Belin, Vesoul</p>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
                 
             <!-- auto-formation -->
-                <div class="col-12 col-lg-4">
-                    <div class="box">
-                        <div class="date">2021 à 2022</div>
-                        <img id="imgOI" src="assets/img/AnaisGuyon/Oï.png" alt=""></img>
-                        <div class="title">Auto-formation</div>
-                        <div class="text_container">
-                            <p>Illustrator, Indesign, Photoshop, Wordpress, Blender</p></div>
+            <div class="col-12 col-md-4">
+                <div class="box">
+                    <div class="box-inner">
+                        <div class="box-front">
+                            <div class="date">2021 à 2022</div>
+                            <i id="maison" class="fas fa-house-user"></i>
+                        </div>
+                        <div class="box-back">
+                            <span class="title">
+                                <div class="title">Auto-formation</div>
+                            </span>
+                            <div class="text_container">
+                                <p>Illustrator, Indesign, Wordpress, Blender</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
+            </div>
+
             <!-- La Manu -->
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-md-4">
                     <div class="box">
-                        <div class="date">2022</div>
-                        <img src="assets/img/logo-experiences-formation/La Manu.png" class="img-fluid" alt=""></img>
-                        <div class="title">
-                            <div>Formation</div>
-                            <div>Concepteur Designer UI</div>
-                            <div>à La Manu (campus virtuel)</div>
+                        <div class="box-inner">
+                            <div class="box-front">
+                                <span class="date">2022</span>
+                                <img src="assets/img/logo-experiences-formation/logo-La Manu.png" class="img-fluid" alt="logo-La Manu"></img>
+                            </div>
+                            <div class="box-back">
+                                <span class="title">
+                                    <div>Titre Pro. <br> Concepteur Designer UI </div>
+                                </span>
+                                <div class="text_container">La Manu,<br>campus virtuel</div>
+                            </div>
                         </div>
-                        <div class="text_container">Préparation au Titre Professionnel Concepteur Designer UI (RNCP35634)</div>
                     </div>
                 </div>
             </div>
         </section>
     </div>
-
 
 <!-----------------------------------------------------------------------------------------------------------------------------------------------------
     SECTION EXPERIENCES 
 ------------------------------------------------------------------------------------------------------------------------------------------------------>
-    
-    <div class="container-fluid">
-        <section class="row experiences scroll-page" id="EXPÉRIENCES">
-            <div class= "col-md-2 containerNumberCategory">
-                <p class="number">3</p>
-                <p class="category">exp<span>e</span>riences</p>
-            </div>
-            <div class="col-md-8 experiencesCards">
 
-                <!-- l'Atelier 19 -->
-                <div class="col-12 col-lg-3">
-                    <div class="box">
-                        <div class="box-inner">
-                            <div class="box-front">
-                                <img src="assets/img/logo-experiences-formation/logo swaagshirt.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="box-back">
-                                <span class="date">2022</span>
-                                <span class="title">Stages de Web Designer</span>
-                                <div class="text_container">
-                                    <p>Découverte de deux métiers lié au web design</p>
-                                </div>
-                            </div>
-                        </div>
+<div class="container-fluid experiences" >
+    <div class="containerBandeau" id="EXPÉRIENCES">
+        <span class="txt">MES EXPÉRIENCES &nbsp;</span>
+        <span class="txt">MES EXPÉRIENCES &nbsp;</span>
+        <span class="txt">MES EXPÉRIENCES &nbsp;</span>
+        <span class="txt">MES EXPÉRIENCES &nbsp;</span>
+        <span class="txt">MES EXPÉRIENCES &nbsp;</span>
+    </div>
+    <section class="row scroll-page">
+        <div class="col-2 numberCategory"><img src="assets/img/Nombres&Catégories/3.png"></img></div>
+        <div class="col-12 col-md-8 experiencesCards">
+            <h2 class= "bandeauTitle">MES EXPÉRIENCES</h2>
+            <div class="container containerExperience">
+                <input type="radio" name="slider" id="item-5">
+                <input type="radio" name="slider" id="item-4">
+                <input type="radio" name="slider" id="item-3"checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-1">
+                <div class="cardsCarousel">
+                    <label class="cardCarousel" for="item-1" id="exp-1">
+                        <img src="assets/img/logo-experiences-formation/logoMazars.png" class="img-fluid" alt="logo Mazars">
+                    </label>
+                    <label class="cardCarousel" for="item-2" id="exp-2">
+                        <img src="assets/img/logo-experiences-formation/logoDimeco.png" class="img-fluid" alt="logo Dimeco">
+                    </label>
+                    <label class="cardCarousel" for="item-3" id="exp-3">
+                        <img src="assets/img/logo-experiences-formation/logoCactus.png" class="img-fluid" alt="logo Cactus">
+                    </label>
+                    <label class="cardCarousel" for="item-4" id="exp-4">
+                        <img src="assets/img/logo-experiences-formation/logoSwaag.png" class="img-fluid" alt="logo Swaagshirt">
+                    </label>
+                    <label class="cardCarousel" for="item-5" id="exp-5">
+                        <img src="assets/img/logo-experiences-formation/logoLAtelier19.png" class="img-fluid" alt="logo l'Atelier 19">
+                    </label>
+                </div>
+                <div class="player">
+                    <div class="upper-part">
+                        <div class="play-icon">
+                        <svg width="20" height="20" fill="#2992dc" stroke="#2992dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-play" viewBox="0 0 36 36">
+                            <defs/>
+                            <path d="M5 3l14 9-14 9V3z"/>
+                        </svg>
                     </div>
                 </div>
-                <!-- Swaagchirt & cactus -->
-                <div class="col-12 col-lg-3">
-                    <div class="box">
-                        <div class="box-inner">
-                            <div class="box-front">
-                                <img src="assets/img/logo-experiences-formation/logo swaagshirt.png" class="img-fluid" alt="">
-                                <img src="assets/img/logo-experiences-formation/logo-cactus.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="box-back">
-                                <span class="date">2022</span>
-                                <span class="title">Stages de Web Designer</span>
-                                <div class="text_container">
-                                    <p>Découverte de deux métiers lié au web design</p>
-                                </div>
-                            </div>
+                <div class="info-area" id="test">
+                        <!-- mazars -->
+                    <label class="exp-info" id="exp-info-1">
+                        <div class="sub-line">
+                            <div class="title">Assistante Comptable</div>
+                            <div class="date">2011 à 2013</div>
                         </div>
-                    </div>
-                </div>
-                <!-- dimeco -->
-                <div class="col-12 col-lg-3">
-                    <div class="box">
-                        <div class="box-inner">
-                            <div class="box-front">
-                                <img src="assets/img/logo-experiences-formation/DIMECO_logo_2019.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="box-back">
-                                <span class="date">2016 à 2021</span>
-                                <span class="title">Assistante Comptable</span>
-                                <div class="text_container">
-                                    <div>Gestion des factures fournisseurs (env. 600/mois)</div>
-                                    <div>Gestion des notes de frais</div>
-                                    <div>Suivi des relances clients et fournisseurs</div>
-                                </div>
-                            </div>
+                        <div class="subtitle">· Poste au Centre de Traitement Comptable<br>(service dédié à la saisie comptable des dossiers de clients TPE et PME)</div>
+                    </label>
+                        <!-- dimeco -->
+                    <label class="exp-info" id="exp-info-2">
+                        <div class="sub-line">
+                            <div class="title">Assistante Comptable</div>
+                            <div class="date">2016 à 2021</div>
                         </div>
-                    </div>
-                </div>
-                <!-- mazars -->
-                <div class="col-12 col-lg-3">
-                    <div class="box">
-                        <div class="box-inner">
-                            <div class="box-front">
-                                <img src="assets/img/logo-experiences-formation/logo-mazars.png" class="img-fluid" alt="">
-                            </div>
-                            <div class="box-back">
-                                <span class="date">2011 à 2013</span>
-                                <span class="title">Assistante Comptable</span>
-                                <div class="text_container">
-                                    <p>Poste au Centre de Traitement Comptable, service dédié à la saisie comptable des dossiers de clients TPE et PME</p>
-                                </div>
-                            </div>
+                        <div class="subtitle">· Gestion des factures fournisseurs (env. 600/mois)<br>· Gestion des notes de frais<br>· Suivi des relances clients et fournisseurs.</div>
+                    </label>
+                        <!-- Cactus -->
+                    <label class="exp-info" id="exp-info-3">
+                        <div class="sub-line">
+                            <div class="title">Stage de Web Designer</div>
+                            <div class="date">2022</div>
                         </div>
+                        <div class="subtitle">· Découverte du métier de web designer  dans une agence de communication globale.</div>
+                    </label>
+                    <!-- Swaagchirt -->
+                    <label class="exp-info" id="exp-info-4">
+                        <div class="sub-line">
+                            <div class="title">Stage de Web Designer</div>
+                            <div class="date">2022</div>
+                        </div>
+                        <div class="subtitle">· Découverte du métier d'infographiste dans une société de marquage textile et objets personnalisés.</div>
+                    </label>
+                        <!-- l'Atelier 19 -->
+                    <label class="exp-info" id="exp-info-5">
+                        <div class="sub-line">
+                            <div class="title">Stage de Web Designer</div>
+                            <div class="date">2022</div>
+                        </div>
+                        <div class="subtitle">· Réalisations : site internet avec SEO, veille concurrentielle, vidéo promotionnelle (avec animation logo), calendrier éditorial, supports de communication imprimés.</div>
+                    </label>
+                    <div class="progress-bar">
+                        <span class="progress"></span>
                     </div>
                 </div>
             </div>
         </section>
     </div>
-        
 
 <!-----------------------------------------------------------------------------------------------------------------------------------------------------
     SECTION COMPETENCES 
 ------------------------------------------------------------------------------------------------------------------------------------------------------>
-    <div class="container-fluid">
-        <section class="row competences scroll-page" id="COMPÉTENCES">
-            <div class="col-md-2 containerNumberCategory">
-                <p class="number">4</p>
-                <p class="category">com<span>p</span>etences</p>
-            </div>
-            <div class="col-md-8 competencesInfos">
-                <p>Concevoir la maquette et développer la partie Front-End d'un site web</p>
-                <p>Définir une stratégie Social média</p>
-                <p>Concevoir des supports de communication web et print grâce aux logiciels graphiques et de montage video</p>
+    <div class="container-fluid competences" >
+        <div class="containerBandeau" id="COMPÉTENCES">
+            <span class="txt">MES COMPÉTENCES&nbsp;</span>
+            <span class="txt">MES COMPÉTENCES&nbsp;</span>
+            <span class="txt">MES COMPÉTENCES&nbsp;</span>
+            <span class="txt">MES COMPÉTENCES&nbsp;</span>
+            <span class="txt">MES COMPÉTENCES&nbsp;</span>
+        </div>
+        <section class="row scroll-page">
+            <div class="col-2 numberCategory"><img src="assets/img/Nombres&Catégories/4.png"></img></div>
+            <div class="col-12 col-md-8 competencesInfos">
+                <h2 class= "bandeauTitle">MES COMPÉTENCES</h2>
+                <p>· Concevoir la maquette et développer la partie Front-End d'un site web</p>
+                <p>· Concevoir des supports de communication web et print grâce aux logiciels graphiques et de montage video</p>
+                <p>· Définir une stratégie Social média</p>
             <div class="competencesLogo">
                 <div class="comp1">
                     <p>Conception Graphique</p>
@@ -247,9 +315,9 @@
                 <div class="comp2">
                     <p>Front-End</p>
                     <div>
-                        <img class="frontEnd" src="assets/img/logo-compétences/HTML5_logo.png"></img>
-                        <img class="frontEnd" src="assets/img/logo-compétences/CSS3_logo.png"></img>
-                        <img class="frontEnd" src="assets/img/logo-compétences/JavaScript_logo.png"></img>
+                        <img class="frontEnd" src="assets/img/logo-compétences/logo HTML5.png"></img>
+                        <img class="frontEnd" src="assets/img/logo-compétences/logo CSS3.png"></img>
+                        <img class="frontEnd" src="assets/img/logo-compétences/logo JS.png"></img>
                         <img class="frontEnd" src="assets/img/logo-compétences/Bootstrap_logo.png"></img>
                         <img class="frontEnd" src="assets/img/logo-compétences/Wordpress_Blue_logo.png"></img>
                     </div>
@@ -257,7 +325,8 @@
                 <div class="comp3">
                     <p>Gestion de Projet</p>
                     <div><img class="gestionProjet" src="assets/img/logo-compétences/Github_logo.png"></img>
-                    <img class="gestionProjet" src="assets/img/logo-compétences/trello_logo.png"></img></div>
+                    <img class="gestionProjet" src="assets/img/logo-compétences/trello_logo.png"></img>
+                    <img class="gestionProjet" src="assets/img/logo-compétences/logo notion.png"></img></div>
                 </div>
             </div>
         </section>
@@ -267,13 +336,41 @@
 <!-----------------------------------------------------------------------------------------------------------------------------------------------------
     SECTION ATOUTS   
 ------------------------------------------------------------------------------------------------------------------------------------------------------>
-    <div class="container-fluid">
-        <section class="row atouts scroll-page" id="ATOUTS">
-            <div class= "col-md-2 containerNumberCategory">
-                <p class="number">5</p>
-                <p class="category">ato<span>u</span>ts</p>
-            </div>
-            <div class="col-md-8 atoutsInfos">
+    <div class="container-fluid atouts" >
+        <div class="containerBandeau" id="ATOUTS">
+            <span class="txt">MES ATOUTS&nbsp;</span>
+            <span class="txt">MES ATOUTS&nbsp;</span>
+            <span class="txt">MES ATOUTS&nbsp;</span>
+            <span class="txt">MES ATOUTS&nbsp;</span>
+            <span class="txt">MES ATOUTS&nbsp;</span>
+        </div>
+        <section class="row scroll-page">
+            <div class= "col-2 numberCategory"><img src="assets/img/Nombres&Catégories/5.png"></img></div>
+            <div class="col-12 col-md-8 atoutsInfos">
+                <h2 class= "bandeauTitle">MES ATOUTS</h2>
+                <div class="mots">
+                    <div class="ligne">
+                        <p class="mot mot1 red">Créativité</p>
+                        <p class="mot mot2">Polyvalence</p>
+                        <p class="mot mot3 red">Curiosité</p>
+                    </div>
+                    <div class="ligne">
+                        <p class="mot mot4">Sens de la Communication</p>
+                    </div>
+                    <div class="ligne">
+                        <p class="mot mot5 red">Capacité d'Adaptation</p>
+                        <p class="mot mot6">Organisation</p>
+                    </div>
+                    <div class="ligne">
+                        <p class="mot mot7 red">Empathie</p>
+                        <p class="mot mot8">Minutie</p>
+                        <p class="mot mot9 red">Perseverence</p>
+                    </div>
+                    <div class="ligne">
+                        <p class="mot mot10">Autonomie</p>
+                        <p class="mot mot11 red">Travail en Équipe</p>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -281,13 +378,21 @@
 <!-----------------------------------------------------------------------------------------------------------------------------------------------------
     SECTION LOISIRS 
 ------------------------------------------------------------------------------------------------------------------------------------------------------>
-    <div class="container-fluid">
-        <section class="row loisirs scroll-page" id="LOISIRS">
-            <div class= "col-md-2 containerNumberCategory">    
-                <p class="number">6</p>
-                <p class="category">loi<span>s</span>irs</p>
-            </div>
-            <div class="col-md-8 loisirsInfos">
+    <div class="container-fluid centresDInterets" >
+        <div class="containerBandeau" id="LOISIRS">
+            <span class="txt">MES LOISIRS&nbsp;</span>
+            <span class="txt">MES LOISIRS&nbsp;</span>
+            <span class="txt">MES LOISIRS&nbsp;</span>
+            <span class="txt">MES LOISIRS&nbsp;</span>
+            <span class="txt">MES LOISIRS&nbsp;</span>
+        </div>
+        <section class="row loisirs scroll-page">
+            <div class= "col-2 numberCategory"><img src="assets/img/Nombres&Catégories/6.png"></img></div>
+            <div class="col-12 col-md-8 loisirsInfos">
+                <h2 class= "bandeauTitle">MES LOISIRS</h2>
+                <p>SPORT</p>
+                <p>NOUVELLES TECHNOLOGIES</p>
+                <p>ORPAILLAGE</p>
             </div>
         </section>
     </div>
@@ -295,42 +400,81 @@
 <!-----------------------------------------------------------------------------------------------------------------------------------------------------
     SECTION CONTACT 
 ------------------------------------------------------------------------------------------------------------------------------------------------------>
-    <div class="container-fluid">
-        <section class="row contact scroll-page" id="CONTACT">
-            <div class= "col-md-2 containerNumberCategory">
-                <p class="number">7</p>
-                <p class="category">con<span>t</span>act</p>
-            </div>
-            <div class="col-md-8 contactInfos">
-                <div class="adresse"><i class="fa-solid fa-house"></i> Besançon</div> 
-                <div class="tel"><i class="fa-solid fa-phone"><a href="tel: +330682290931" target="_blank" >06 82 29 09 31</a></i></div>
-                <div class="mail"><i class="fa-solid fa-envelope"></i><a href="mailto: contact@anaisguyon.fr" target="_blank" >contact@anaisguyon.fr</a></div>
-                <!-- Début de widget de lien Calendly -->
-                <div><link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-                <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-                <a href="" onclick="Calendly.initPopupWidget({url: 'https:/calendly.com/anaisguyon?hide_gdpr_banner=1'});return false;">Planifier du temps avec moi</a>
-                <!-- Fin de widget de lien Calendly -->
+    <div class="container-fluid contact" >
+        <div class="containerBandeau" id="CONTACT">
+            <span class="txt">CONTACT&nbsp;</span>
+            <span class="txt">CONTACT&nbsp;</span>
+            <span class="txt">CONTACT&nbsp;</span>
+            <span class="txt">CONTACT&nbsp;</span>
+            <span class="txt">CONTACT&nbsp;</span>
+        </div>
+        <section class="row scroll-page">
+            <div class= "col-2 numberCategory"><img src="assets/img/Nombres&Catégories/7.png"></img></div>
+            <div class="col-12 col-md-8 contactInfos">
+                <h2 class= "bandeauTitle">CONTACT</h2>
+                <div class="txtContact"><h3>Contactez-moi par téléphone ou par mail :</h3>
+                    <div class="adresse">
+                        <img src="assets/img/Icones/Appart.png"></img>
+                        <a href="https://goo.gl/maps/nhHb2FseM5EcT3yE8" target="_blank">Besançon</a>
+                    </div>
+                    <div class="tel">
+                        <img src="assets/img/Icones/Tel.png"></img>
+                        <a href="tel: +330682290931" target="_blank" >06 82 29 09 31</a>
+                    </div>
+                    <div class="mail">
+                        <img src="assets/img/Icones/Mail 2.png"></img>
+                        <a href="mailto: contact@anaisguyon.fr" target="_blank" >contact@anaisguyon.fr</a>
+                    </div>
+                    <!-- Début de widget de lien Calendly -->
+                    <div class="calendly">
+                        <img src="assets/img/Icones/Agenda.png"></img>
+                        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+                    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+                    <a href="" onclick="Calendly.initPopupWidget({url: 'https:/calendly.com/anaisguyon?hide_gdpr_banner=1'});return false;">Planifier un appel avec moi</a>
+                    <!-- Fin de widget de lien Calendly -->
+                    </div>
+                </div>
+                <div class="txtRéseaux"><h3>ou retrouvez-moi sur les réseaux !</h3>
                 </div>
             </div>
-        </section> 
+        </section>
+        <div class="containerRéseaux overflow-hidden">
+            <span class="icones">
+                <a href="https://behance.com/" target="_blank"><i class="fab fa-behance"></i></a>&nbsp;
+                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>&nbsp;
+                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
+                <a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>&nbsp;
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>&nbsp;
+            </span>
+            <span class="icones">
+                <a href="https://behance.com/" target="_blank"><i class="fab fa-behance"></i></a>&nbsp;
+                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>&nbsp;
+                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
+                <a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>&nbsp;
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>&nbsp;
+            </span>
+            <span class="icones">
+                <a href="https://behance.com/" target="_blank"><i class="fab fa-behance"></i></a>&nbsp;
+                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>&nbsp;
+                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
+                <a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>&nbsp;
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>&nbsp;
+            </span>
+            <span class="icones">
+                <a href="https://behance.com/" target="_blank"><i class="fab fa-behance"></i></a>&nbsp;
+                <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>&nbsp;
+                <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
+                <a href="https://dribbble.com/" target="_blank"><i class="fab fa-dribbble"></i></a>&nbsp;
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>&nbsp;
+            </span>
+        </div>
     </div>
-
-<!--==========================================================================
-===============   test   ====================================================
-==============================================================================  -->
-    
-    <!-- JavaScript here -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="scripts.js"></script>
-
-<!--==========================================================================
-===============  fin test   ====================================================
-==============================================================================  -->
 
 <!-- JS -->
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script - test.js"></script>
     <script src="https://kit.fontawesome.com/911d53f17e.js" crossorigin="anonymous"></script>
 </body>
 </html> 
